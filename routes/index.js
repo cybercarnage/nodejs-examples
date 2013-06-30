@@ -93,23 +93,23 @@ exports.index = function(req, res){
         });
 		}
 
-		blogModel.find({}, function (err, docs) {
-				if (err) {
-			  		console.log(err);
-			  } else {
-			  		console.log('find blogs', docs);
-			  }
-			  // docs.forEach
-		});
+		// blogModel.find({}, function (err, docs) {
+		// 		if (err) {
+		// 	  		console.log(err);
+		// 	  } else {
+		// 	  		console.log('find blogs', docs);
+		// 	  }
+		// 	  // docs.forEach
+		// });
 
-		commentModel.find({}, function (err, docs) {
-				if (err) {
-			  		console.log(err);
-			  } else {
-			  		console.log('find comments', docs);
-			  }
-			  // docs.forEach
-		});
+		// commentModel.find({}, function (err, docs) {
+		// 		if (err) {
+		// 	  		console.log(err);
+		// 	  } else {
+		// 	  		console.log('find comments', docs);
+		// 	  }
+		// 	  // docs.forEach
+		// });
 
 	res.render('index', { title: 'Express' });
 };

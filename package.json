@@ -11,6 +11,10 @@
     "stylus": "*",
     "mongoose": "3.x",
     "async": "*",
-    "coffee-script": "*"
+    "coffee-script": "*",
+    "underscore": "*",
+    "swig": "*",
+    "redis": "*",
+    "consolidate": "*"
   }
 }

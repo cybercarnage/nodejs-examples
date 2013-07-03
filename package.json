@@ -15,6 +15,7 @@
     "underscore": "*",
     "swig": "*",
     "redis": "*",
-    "consolidate": "*"
+    "consolidate": "*",
+    "connect-redis": "*"
   }
 }
